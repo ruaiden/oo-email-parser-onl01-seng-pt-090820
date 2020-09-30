@@ -10,7 +10,7 @@ class EmailAddressParser
   end 
   
   def parse_email
-      email.collect do |email|
+      email.collect do |emails| 
     end
   end 
   end 
