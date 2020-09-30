@@ -6,11 +6,11 @@ class EmailAddressParser
   attr_accessor :email
 
   def initialized(email)
-    @email=email
+     @email=email
   end 
   
   def parse_email
-      @email.collect do |emails|
+      email.collect do |email|
     end
   end 
   end 
