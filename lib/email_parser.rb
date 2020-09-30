@@ -2,14 +2,13 @@ require 'pry'
 
 class EmailAddressParser
   
-  
   attr_accessor :email
 
   def initialize(email)
      @email=email
   end 
   
-  def parse_email
+  def parse
       email.collect do |emails| 
         emails.split(",")
     end
