@@ -2,7 +2,6 @@ require 'pry'
 
 class EmailAddressParser
   
-  EMAILADDESSPARSER = []
   
   attr_accessor :email
 
@@ -11,7 +10,7 @@ class EmailAddressParser
   end 
   
   def parse_email
-      @email.parse do |emails| EMAILADDESSPARSER << email 
+      @email.collect do |emails|
     end
   end 
   end 
